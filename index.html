@@ -442,6 +442,19 @@ body {
 ::-webkit-scrollbar-thumb:hover { background: var(--dust); }
 
 </style>
+  <style>
+    .switch-btn {
+      position: fixed; bottom: 24px; right: 24px;
+      background: #16a085; color: #fff; border: none; border-radius: 6px;
+      padding: 12px 22px; font-family: "IBM Plex Mono", monospace;
+      font-size: 11px; font-weight: 600; letter-spacing: 1px;
+      cursor: pointer; box-shadow: 0 4px 16px rgba(0,0,0,.5);
+      z-index: 9999; text-decoration: none; display: inline-flex;
+      align-items: center; gap: 8px;
+    }
+    .switch-btn:hover { opacity: 0.85; }
+    .switch-btn.asis { background: #555; }
+  </style>
 </head>
 <body>
 
@@ -6882,7 +6895,7 @@ body {
   </div><!-- /finance -->
 
 </main>
-
+<a href="https://bekatassefa-sudo.github.io/yotobe/" class="switch-btn asis">← Switch to AS-IS</a>
 <!-- ════════════════════════════════════════════
      JAVASCRIPT
 ════════════════════════════════════════════ -->
